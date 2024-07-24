@@ -54,4 +54,23 @@ def calculator():
 if __name__ == "__main__":
     calculator()
 
+# How to Interact
+
+''' Simple Calculator
+Select operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+Enter choice(1/2/3/4): 1
+Enter first number: 10
+Enter second number: 5
+10.0 + 5.0 = 15.0
+Do you want to perform another calculation? (yes/no): yes
+Enter choice(1/2/3/4): 4
+Enter first number: 10
+Enter second number: 0
+Error! Division by zero.
+Do you want to perform another calculation? (yes/no): no '''
+
 
