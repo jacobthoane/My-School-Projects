@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class AverageMethod {
+
+    public static void main(String[] args) {
+        // Call the calcAvg method and store the result in the average variable
+        double average = calcAvg(23, 45);
+
+        // Display the result using JOptionPane
+        JOptionPane.showMessageDialog(null, "The average is: " + average);
+    }
+
+    // Method to calculate the average of two integers
+    public static double calcAvg(int num1, int num2) {
+        // Calculate the average
+        double average = (num1 + num2) / 2.0;
+        return average;
+    }
+}
